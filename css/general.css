@@ -1,0 +1,204 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 100%;
+    
+    background-image: url(../images/cupcake-bg.jpg);
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+header {
+    overflow: hidden;
+    background-color: teal;
+}
+
+
+/*-------------------------
+Navigation menu
+--------------------------*/
+
+.menu_simple ul {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    list-style-type: none;
+}
+
+.menu_simple ul li a {
+    font-size: 1.5rem;
+    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+    font-weight: lighter;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: sandybrown;
+    padding: 14px 11px;
+    background-color: teal;
+    display:block;
+    border-bottom: solid #055 1px;
+}
+ 
+.menu_simple ul li a:visited {
+    color: white;
+}
+ 
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+    color: black;
+    background-color: sandybrown;
+}
+
+
+
+
+
+
+
+
+.cupcake {
+    margin-top: 1rem;
+    background-color: white;
+    top: 1rem;
+}
+
+article {
+    margin: .4rem 0 .4rem;
+    overflow: hidden;
+    background-color: white;
+}
+
+.billboard {
+    height: 21rem;
+    margin-top: 1rem;
+    background-image: url(../images/cupcake1.jpg);
+    background-color: brown;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.wrapper{
+    padding: 5%;
+}
+
+h1 {
+    margin-top: 0;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: normal;
+    font-size: 3rem;
+    line-height: 3rem;
+    letter-spacing: -.1rem;
+}
+
+h2 {
+    margin: inherit;
+    background-color: rgba(50, 1, 1, .6);
+    font-family: "Times New Roman", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    color: white;
+    padding: .34rem 5%;
+}
+
+h3 {
+    margin-top: 1.5rem;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: sandybrown;
+    border-bottom: dotted 1px lightgrey;
+}
+
+h6 {
+    font-weight: normal;
+    font-size: .1rem;
+}
+
+.teal {
+    color: teal;
+}
+
+.sandybrown {
+    color: sandybrown;
+}
+
+p {
+    font-size: .9rem;
+    line-height: 1.5rem;
+}
+
+figure {
+    margin: 0 auto 1.5rem; /*Auto incase we want smaller */
+    width: 100%; /* Size can be smaller than, but no larger than 100% */
+}
+
+.cupcake {
+    box-shadow: .2rem .2rem .9rem .2rem rgba(0, 0, 0, .2);
+        
+    border: solid .35rem rgba(255, 255, 255, .8);
+}
+
+figcaption {
+    font-size: .75rem;
+    margin: 1rem 0 0;
+}
+
+ul li {
+    font-size: .9rem;
+    line-height: 1.7rem;
+}
+
+ol li {
+    font-size: .9rem;
+    line-height: 1.5rem;
+}
+
+footer {
+    overflow: hidden;
+    background-color: teal;
+    height: 20rem;
+    margin:0 auto;
+}
+
+.linksleft {
+    float:left;
+    display:inline;
+    width:50%;
+    padding:0 0 0 30px;
+}
+
+.linksright {
+    float:right;
+    display:inline;
+    width:50%;
+    padding:0 0 0 30px;
+}
