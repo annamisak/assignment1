@@ -61,7 +61,7 @@ Navigation menu
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    color: sandybrown;
+    color: white;
     padding: 14px 11px;
     background-color: teal;
     display:block;
@@ -69,7 +69,7 @@ Navigation menu
 }
  
 .menu_simple ul li a:visited {
-    color: sandybrown;
+    color: white;
 }
  
 .menu_simple ul li a:hover, .menu_simple ul li .current {
@@ -97,7 +97,7 @@ article {
 }
 
 .billboard {
-    height: 21rem;
+    height: 20.3rem;
     margin-top: 1rem;
     background-image: url(../images/cupcake1.jpg);
     background-color: brown;
