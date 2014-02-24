@@ -97,10 +97,11 @@ article {
 }
 
 .billboard {
-    height: 20.3rem;
+    overflow: hidden;
     margin-top: 1rem;
     background-image: url(../images/cupcake1.jpg);
     background-color: brown;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -119,11 +120,13 @@ h1 {
 }
 
 h2 {
-    margin: inherit;
+    margin: 16rem 0 1rem 0;
     background-color: rgba(50, 1, 1, .6);
     font-family: "Times New Roman", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
     font-weight: lighter;
     font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
     color: white;
     padding: .34rem 5%;
 }
@@ -134,7 +137,7 @@ h3 {
     font-weight: normal;
     font-size: 1.5rem;
     line-height: 2rem;
-    color: sandybrown;
+    color: teal;
     border-bottom: dotted 1px lightgrey;
 }
 
