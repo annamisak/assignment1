@@ -43,6 +43,12 @@ header {
     background-color: teal;
 }
 
+.logo {
+    height: 6rem;
+    width: 90%;
+    margin: 5%;
+}
+
 .billboard {
     overflow: hidden;
     margin-top: 1rem;
@@ -74,26 +80,19 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    color: white;
+    color: sandybrown;
     
     background-color: teal;
-    border-bottom: solid #055 1px;
+    border-bottom: solid #055 0px;
 }
  
 .menu_simple ul li a:visited {
-    color: white;
+    color: sandybrown;
 }
  
 .menu_simple ul li a:hover, .menu_simple ul li {
     color: black;
     background-color: sandybrown;
-}
-
-
-.cupcake {
-    margin-top: 1rem;
-    background-color: white;
-    top: 1rem;
 }
 
 /*--------------Article------------*/
@@ -102,6 +101,7 @@ article {
     margin: .4rem 0 .4rem;
     overflow: hidden;
     background-color: white;
+    
 }
 
 .wrapper{
@@ -141,9 +141,10 @@ h3 {
     border-bottom: dotted 1px lightgrey;
 }
 
-h6 {
+h4 {
     font-weight: normal;
-    font-size: .1rem;
+    font-size: .6rem;
+    color: grey;
 }
 
 .teal {
@@ -164,6 +165,10 @@ figure {
     width: 100%;
 }
 
+figcaption {
+    font-size: .75rem;
+    margin: 1rem 0 0;
+}
 
 /*--------------Ribbon and Image------------*/
 
@@ -200,12 +205,6 @@ figure {
 	-ms-transform: rotate(45deg);
 } 
 
-
-figcaption {
-    font-size: .75rem;
-    margin: 1rem 0 0;
-}
-
 .bakewrap {
     padding: .4rem 1rem .4rem 0;
     border-radius: .7rem;
@@ -223,6 +222,17 @@ ol li {
     margin-bottom: .5rem;
 }
 
+.cupcake {
+    margin-top: 95%;
+    position: absolute;
+    width: 100%;
+}
+
+. cupcake logo {
+    height: 6rem;
+    position: fixed;
+}
+
 /*--------------Suggest Other Recipes------------*/
 
 .suggestleft {
@@ -236,7 +246,8 @@ ol li {
 .suggestleft li, .suggestright li {
     list-style-type: none;
     margin-bottom: 2rem;
-    line-height: 1.4rem;
+    line-height: 1.2rem;
+    font-size: .8rem;
 }
 
 .suggestleft ul, .suggestright ul {
