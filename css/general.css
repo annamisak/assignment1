@@ -39,14 +39,14 @@ img {
 /*--------------Header------------*/
 
 header {
-    overflow: hidden;
+
     background-color: teal;
 }
 
 .logo {
     height: 6rem;
-    width: 90%;
-    margin: 5%;
+    width: 100%;
+    padding: .5rem;
 }
 
 .billboard {
@@ -222,15 +222,14 @@ ol li {
     margin-bottom: .5rem;
 }
 
-.cupcake {
-    margin-top: 95%;
-    position: absolute;
-    width: 100%;
+.logobox {
+    width: 5rem;
+    position: relative;
 }
 
-. cupcake logo {
-    height: 6rem;
-    position: fixed;
+.innerbox {
+    position: absolute;
+    margin-top: 100%;
 }
 
 /*--------------Suggest Other Recipes------------*/
@@ -290,41 +289,6 @@ footer {
     height: 20rem;
     margin: 0 auto;
     background-color: teal;
-}
-
-.linksleft {
-    padding: 5%;
-    margin: 0;
-    float: left;
-    display: inline;
-    width: 10rem;
-}
-
-.linksleft ul {
-    margin: 0;
-    padding: 5%;
-}
-
-.linksleft li {
-    list-style-type: none;
-}
-
-.linksleft li a {
-    color: sandybrown;
-    text-decoration: none;
-}
-
-.linksleft li a:hover {
-    color: sandybrown;
-    text-decoration: underline;
-}
-
-.linksright {
-    padding: 5%;
-    margin: 0;
-    float: top right;
-    display: inline;
-    width: 70%;
 }
 
 hr {
