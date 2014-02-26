@@ -36,13 +36,25 @@ img {
     display: block;
 }
 
+/*--------------Header------------*/
+
 header {
     overflow: hidden;
     background-color: teal;
 }
 
+.billboard {
+    overflow: hidden;
+    margin-top: 1rem;
+    
+    background-image: url(../images/cupcake1.jpg);
+    background-color: brown;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
-/*--------------Menu Navigation ------------*/
+/*--------------Menu Navigation------------*/
 
 .menu_simple ul {
     margin: 0;
@@ -52,6 +64,9 @@ header {
 }
 
 .menu_simple ul li a {
+    padding: 14px 11px;
+    display:block;
+    
     font-size: 1.5rem;
     font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
     font-weight: lighter;
@@ -60,9 +75,8 @@ header {
     text-transform: uppercase;
     text-align: center;
     color: white;
-    padding: 14px 11px;
+    
     background-color: teal;
-    display:block;
     border-bottom: solid #055 1px;
 }
  
@@ -70,16 +84,10 @@ header {
     color: white;
 }
  
-.menu_simple ul li a:hover, .menu_simple ul li .current {
+.menu_simple ul li a:hover, .menu_simple ul li {
     color: black;
     background-color: sandybrown;
 }
-
-
-
-
-
-
 
 
 .cupcake {
@@ -88,20 +96,12 @@ header {
     top: 1rem;
 }
 
+/*--------------Article------------*/
+
 article {
     margin: .4rem 0 .4rem;
     overflow: hidden;
     background-color: white;
-}
-
-.billboard {
-    overflow: hidden;
-    margin-top: 1rem;
-    background-image: url(../images/cupcake1.jpg);
-    background-color: brown;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 
 .wrapper{
@@ -119,14 +119,16 @@ h1 {
 
 h2 {
     margin: 16rem 0 1rem 0;
-    background-color: rgba(50, 1, 1, .6);
+    padding: .34rem 5%;
+    
     font-family: "Times New Roman", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
     font-weight: lighter;
     font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
+    
     color: white;
-    padding: .34rem 5%;
+    background-color: rgba(50, 1, 1, .6);
 }
 
 h3 {
@@ -163,7 +165,7 @@ figure {
 }
 
 
-/*--------------Ribbon and Image ------------*/
+/*--------------Ribbon and Image------------*/
 
 .side-corner-tag {
     position: relative;
@@ -175,28 +177,28 @@ figure {
     font-weight: 900;
     box-shadow: .2rem .2rem .9rem .2rem rgba(0, 0, 0, .2);      
     border: solid 0 rgba(255, 255, 255, .8);
+}
+
+.side-corner-tag p {
+    display: inline;	
+}
+	
+.side-corner-tag p span {
+    position: absolute;
+    display: inline-block;
+	right: -25px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2), inset 0px 5px 30px rgba(255,255,255,0.2);
+	text-align: center;
+	text-transform: uppercase;
+	top: 10px;
+	background: sandybrown;
+	width: 100px;
+	padding: 3px 1px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
 } 
-	
-	.side-corner-tag p {
-		display: inline;	
-	}
-	
-	.side-corner-tag p span {
-		position: absolute;
-		display: inline-block;
-		right: -25px;
-		box-shadow: 0px 0px 10px rgba(0,0,0,0.2), inset 0px 5px 30px rgba(255,255,255,0.2);
-		text-align: center;
-		text-transform: uppercase;
-		top: 10px;
-		background: sandybrown;
-		width: 100px;
-		padding: 3px 1px;
-		-webkit-transform: rotate(45deg);
-		-moz-transform: rotate(45deg);
-		-o-transform: rotate(45deg);
-		-ms-transform: rotate(45deg);
-	} 
 
 
 figcaption {
@@ -221,23 +223,107 @@ ol li {
     margin-bottom: .5rem;
 }
 
+/*--------------Suggest Other Recipes------------*/
+
+.suggestleft {
+    float: left;
+    display: inline;
+    width: 50%;
+    padding: 5%;
+    margin: 0;
+}
+
+.suggestleft li, .suggestright li {
+    list-style-type: none;
+    margin-bottom: 2rem;
+    line-height: 1.4rem;
+}
+
+.suggestleft ul, .suggestright ul {
+    margin: 0;
+    padding: 5%;
+}
+
+.suggestleft li a, .suggestright li a {
+    color: teal;
+    text-decoration: none;
+}
+
+.suggestleft li a:hover, .suggestright li a:hover {
+    color: sandybrown;
+    text-decoration: underline;
+}
+
+.suggestright {
+    float: right;
+    display: inline;
+    width: 50%;
+    padding: 5%;
+}
+
+.suggest {
+    margin-bottom: .5rem;
+    padding: .4rem;
+    width: 95%;
+    height: absolute;
+    box-shadow: .1rem .1rem .6rem .1rem rgba(0, 0, 0, .2);      
+    border: solid 0 rgba(255, 255, 255, .8);
+    background-color: white;
+}
+
+/*-------------- Footer ------------*/
+
 footer {
+    margin: 0 auto;
     overflow: hidden;
-    background-color: teal;
     height: 20rem;
-    margin:0 auto;
+    margin: 0 auto;
+    background-color: teal;
 }
 
 .linksleft {
-    float:left;
-    display:inline;
-    width:50%;
-    padding:0 0 0 30px;
+    padding: 5%;
+    margin: 0;
+    float: left;
+    display: inline;
+    width: 10rem;
+}
+
+.linksleft ul {
+    margin: 0;
+    padding: 5%;
+}
+
+.linksleft li {
+    list-style-type: none;
+}
+
+.linksleft li a {
+    color: sandybrown;
+    text-decoration: none;
+}
+
+.linksleft li a:hover {
+    color: sandybrown;
+    text-decoration: underline;
 }
 
 .linksright {
-    float:right;
-    display:inline;
-    width:50%;
-    padding:0 0 0 30px;
+    padding: 5%;
+    margin: 0;
+    float: top right;
+    display: inline;
+    width: 70%;
+}
+
+hr {
+    float: left;
+    width: 100%;
+    border: .1rem solid #000;
+}
+
+hr + p {
+    margin: 0;
+    padding: 0  5%;
+    float: left;
 }
