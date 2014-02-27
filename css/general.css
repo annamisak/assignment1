@@ -155,14 +155,14 @@ figcaption {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    color: sandybrown;
+    color: white;
     
     background-color: teal;
     border-bottom: solid #055 0px;
 }
  
 .menu_simple ul li a:visited {
-    color: sandybrown;
+    color: white;
 }
  
 .menu_simple ul li a:hover, .menu_simple ul li {
