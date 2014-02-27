@@ -60,41 +60,6 @@ header {
     background-size: 100%;
 }
 
-/*--------------Menu Navigation------------*/
-
-.menu_simple ul {
-    margin: 0;
-    padding: 0;
-    width: auto;
-    list-style-type: none;
-}
-
-.menu_simple ul li a {
-    padding: 14px 11px;
-    display:block;
-    
-    font-size: 1.5rem;
-    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
-    font-weight: lighter;
-    letter-spacing: .1rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center;
-    color: sandybrown;
-    
-    background-color: teal;
-    border-bottom: solid #055 0px;
-}
- 
-.menu_simple ul li a:visited {
-    color: sandybrown;
-}
- 
-.menu_simple ul li a:hover, .menu_simple ul li {
-    color: black;
-    background-color: sandybrown;
-}
-
 /*--------------Article------------*/
 
 article {
@@ -147,17 +112,17 @@ h4 {
     color: grey;
 }
 
+p {
+    font-size: .9rem;
+    line-height: 1.5rem;
+}
+
 .teal {
     color: teal;
 }
 
 .sandybrown {
     color: sandybrown;
-}
-
-p {
-    font-size: .9rem;
-    line-height: 1.5rem;
 }
 
 figure {
@@ -168,6 +133,41 @@ figure {
 figcaption {
     font-size: .75rem;
     margin: 1rem 0 0;
+}
+
+/*--------------Menu Navigation------------*/
+
+.menu_simple ul {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    list-style-type: none;
+}
+
+.menu_simple ul li a {
+    padding: 14px 11px;
+    display:block;
+    
+    font-size: 1.5rem;
+    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+    font-weight: lighter;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: sandybrown;
+    
+    background-color: teal;
+    border-bottom: solid #055 0px;
+}
+ 
+.menu_simple ul li a:visited {
+    color: sandybrown;
+}
+ 
+.menu_simple ul li a:hover, .menu_simple ul li {
+    color: black;
+    background-color: sandybrown;
 }
 
 /*--------------Ribbon and Image------------*/
@@ -265,10 +265,11 @@ ol li {
 }
 
 .suggestright {
+    margin: 0;
+    padding: 5%;
     float: right;
     display: inline;
     width: 50%;
-    padding: 5%;
 }
 
 .suggest {
