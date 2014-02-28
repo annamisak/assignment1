@@ -55,7 +55,7 @@ header {
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: white;
-    border-top: solid .7rem #572727;
+    border-top: solid .7rem #442913;
 }
 
 h2 {
@@ -64,8 +64,9 @@ h2 {
     font-weight: lighter;
     font-size: 1.5rem;
     text-transform: uppercase;
+    letter-spacing: .05rem;
     color: white;
-    background-color: rgba(50, 1, 1, .6);
+    background-color: rgba(68, 41, 19, .6);
 }
 
 /*--------------Article------------*/
