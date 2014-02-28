@@ -35,7 +35,7 @@ img {
 /*--------------Header------------*/
 
 header {
-    background-color: teal;
+    background-color: #008080;
 }
 
 .logo {
@@ -94,7 +94,7 @@ h3 {
     font-weight: normal;
     font-size: 1.5rem;
     line-height: 2rem;
-    color: teal;
+    color: #008080;
     border-bottom: dotted 1px lightgrey;
     background-image: url(../images/cupcakelogo2.svg);
     background-repeat:no-repeat;
@@ -112,11 +112,11 @@ p {
 }
 
 .teal {
-    color: teal;
+    color: #008080;
 }
 
 .sandybrown {
-    color: sandybrown;
+    color: #F4A460;
 }
 
 figure {
@@ -130,14 +130,14 @@ figcaption {
 }
 
 .cupcake {
-    margin:auto;
-    display:block;
-    position:relative;
+    margin: -6rem auto auto;
+    display: block;
+    position: relative;
     height: 6rem;
     width: auto;
-    left:0;
-    right:0;
-    bottom:-3rem;
+    left: 0;
+    right: 0;
+    bottom: -3rem;
 }
 
 /*--------------Menu Navigation------------*/
@@ -160,7 +160,7 @@ figcaption {
     text-transform: uppercase;
     text-align: center;
     color: white;
-    background-color: teal;
+    background-color: #008080;
     border-bottom: solid #055 0px;
 }
  
@@ -170,7 +170,7 @@ figcaption {
  
 .navigation ul li a:hover, .navigation ul li {
     color: black;
-    background-color: sandybrown;
+    background-color: #F4A460;
 }
 
 /*--------------Ribbon and Image------------*/
@@ -199,7 +199,7 @@ figcaption {
 	text-align: center;
 	text-transform: uppercase;
 	top: 10px;
-	background: sandybrown;
+	background: #F4A460;
 	width: 100px;
 	padding: 3px 1px;
 	-webkit-transform: rotate(45deg);
@@ -249,12 +249,12 @@ ol li {
 }
 
 .suggestleft li a, .suggestright li a {
-    color: teal;
+    color: #008080;
     text-decoration: none;
 }
 
 .suggestleft li a:hover, .suggestright li a:hover {
-    color: sandybrown;
+    color: #F4A460;
     text-decoration: underline;
 }
 
@@ -283,16 +283,26 @@ footer {
     margin: 0;
     padding: 3rem 5%;
     overflow: hidden;
-    height: 10rem;
-    background-color: teal;
+    height: 13rem;
+    background-color: #008080;
+    text-align: center;
 }
 
 footer a {
-    color: sandybrown;
+    color: #09bbbb;
     text-decoration: none;
 }
 
 footer a:hover {
-    color: sandybrown;
+    color: #F4A460;
     text-decoration: underline;
+}
+
+p + hr {
+    border: solid #442913 .1rem;
+}
+
+hr + p + p {
+    margin: -1.2rem auto;
+    position: 
 }
