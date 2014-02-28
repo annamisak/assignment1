@@ -271,7 +271,6 @@ ol li {
     margin-bottom: .5rem;
     padding: .4rem;
     width: 95%;
-    height: absolute;
     box-shadow: .1rem .1rem .6rem .1rem rgba(0, 0, 0, .2);      
     border: solid 0 rgba(255, 255, 255, .8);
     background-color: white;
@@ -285,11 +284,12 @@ footer {
     overflow: hidden;
     height: 13rem;
     background-color: #008080;
+    color: #0e4040;
     text-align: center;
 }
 
 footer a {
-    color: #09bbbb;
+    color: #05b4b4;
     text-decoration: none;
 }
 
@@ -299,10 +299,5 @@ footer a:hover {
 }
 
 p + hr {
-    border: solid #442913 .1rem;
-}
-
-hr + p + p {
-    margin: -1.2rem auto;
-    position: 
+    border: dashed #079797 .1rem;
 }
