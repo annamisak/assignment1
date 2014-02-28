@@ -52,7 +52,6 @@ header {
 .billboard {
     overflow: hidden;
     margin-top: 1rem;
-    
     background-image: url(../images/cupcake1.jpg);
     background-color: brown;
     background-position: center center;
@@ -66,11 +65,12 @@ article {
     margin: .4rem 0 .4rem;
     overflow: hidden;
     background-color: white;
-    
 }
 
 .wrapper{
     padding: 5%;
+    margin: 0;
+    overflow: hidden;
 }
 
 h1 {
@@ -85,25 +85,24 @@ h1 {
 h2 {
     margin: 16rem 0 1rem 0;
     padding: .34rem 5%;
-    
-    font-family: "Times New Roman", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
     font-weight: lighter;
     font-size: 1.5rem;
     text-transform: uppercase;
-    letter-spacing: .1rem;
-    
     color: white;
     background-color: rgba(50, 1, 1, .6);
 }
 
 h3 {
     margin-top: 1.5rem;
+    padding: 0 1rem 0 2.3rem;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-weight: normal;
     font-size: 1.5rem;
     line-height: 2rem;
     color: teal;
     border-bottom: dotted 1px lightgrey;
+    background-image: url(../images/cupcakelogo2.svg);
+    background-repeat:no-repeat;
 }
 
 h4 {
@@ -137,17 +136,16 @@ figcaption {
 
 /*--------------Menu Navigation------------*/
 
-.menu_simple ul {
+.navigation ul {
     margin: 0;
     padding: 0;
     width: auto;
     list-style-type: none;
 }
 
-.menu_simple ul li a {
+.navigation ul li a {
     padding: 14px 11px;
     display:block;
-    
     font-size: 1.5rem;
     font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
     font-weight: lighter;
@@ -156,23 +154,22 @@ figcaption {
     text-transform: uppercase;
     text-align: center;
     color: white;
-    
     background-color: teal;
     border-bottom: solid #055 0px;
 }
  
-.menu_simple ul li a:visited {
+.navigation ul li a:visited {
     color: white;
 }
  
-.menu_simple ul li a:hover, .menu_simple ul li {
+.navigation ul li a:hover, .navigation ul li {
     color: black;
     background-color: sandybrown;
 }
 
 /*--------------Ribbon and Image------------*/
 
-.side-corner-tag {
+.corner-ribbon {
     position: relative;
     color: #000;
     display: inline-block;
@@ -184,11 +181,11 @@ figcaption {
     border: solid 0 rgba(255, 255, 255, .8);
 }
 
-.side-corner-tag p {
+.corner-ribbon p {
     display: inline;	
 }
 	
-.side-corner-tag p span {
+.corner-ribbon p span {
     position: absolute;
     display: inline-block;
 	right: -25px;
@@ -222,24 +219,22 @@ ol li {
     margin-bottom: .5rem;
 }
 
-.logobox {
-    width: 5rem;
-    position: relative;
-}
-
-.innerbox {
+.cupcake {
     position: absolute;
-    margin-top: 100%;
+    margin: auto;
+    width: 5rem;
+    display: block;
 }
 
 /*--------------Suggest Other Recipes------------*/
 
 .suggestleft {
     float: left;
-    display: inline;
+    display: block;
     width: 50%;
     padding: 5%;
     margin: 0;
+    overflow: auto;
 }
 
 .suggestleft li, .suggestright li {
@@ -268,8 +263,9 @@ ol li {
     margin: 0;
     padding: 5%;
     float: right;
-    display: inline;
+    display: block;
     width: 50%;
+    overflow: auto;
 }
 
 .suggest {
@@ -287,9 +283,18 @@ ol li {
 footer {
     margin: 0 auto;
     overflow: hidden;
-    height: 20rem;
-    margin: 0 auto;
+    height: 10rem;
     background-color: teal;
+}
+
+footer a {
+    color: sandybrown;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: sandybrown;
+    text-decoration: underline;
 }
 
 hr {
